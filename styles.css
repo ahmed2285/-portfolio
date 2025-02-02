@@ -1,0 +1,200 @@
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+   }
+ body{
+  background:linear-gradient(#011431 ,#292424);
+
+ }
+ header{
+     width: 100%;
+    text-align: center;
+    font-family: fantasy;
+ 
+    animation: scaleUp 2s ease-in-out forwards;
+}
+
+ @keyframes scaleUp {
+    0% {
+        font-size: 18px; /* الحجم الصغير */
+    }
+    100% {
+        font-size: 20px; /* الحجم الكبير */
+    }
+    
+}
+
+
+  
+ #Welcome{
+    font-size: 60px;
+    font-family: cursive;
+    padding-bottom: 530px;
+    padding-top: 300px;
+    color: #f5df18;
+    transition: all 0.3s ease;
+   } 
+  
+
+   
+#hello{
+    font-size: 40px;
+    font-family: monospace;
+    text-align: left;
+    color: #ffee03;
+    text-transform: capitalize;  
+    padding: 10px;
+}
+#about{
+    text-transform: capitalize;
+    width: 50%;
+    margin-top: 100px;
+    padding: 5px;
+    word-spacing: 2px;
+    font-size: 19px;
+    color: #aa930e;
+
+  }
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    position:  fixed;
+    top: 5px;
+    right: 1px;
+    
+  }
+  a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #d2fa21;
+    font-size: larger;
+    margin: 10px;
+    transition:  all 0.2s   ease-in;
+    padding: 10px;
+    margin: 15px;
+   }
+ a:hover{
+     text-decoration-line: underline;
+     text-decoration-color: #bbff01;
+      font-size: 20px;
+      color:  black;
+      }
+     #main{
+      display: flex;
+     }
+     #myPhoto {
+      width: 40%;
+      margin: 40px;
+      border-radius: 50%;
+
+     }
+     #skills-grid{
+      display:  flex;
+      
+     }
+     .skill{
+      width: 100px;
+      height: 100px;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 20px;
+      transition: all 0.3s ease-in-out;
+     }
+      #myskills{
+      text-align: center;
+      font-size: 40px;
+      color: #d9ff00;
+      margin-top: 200px;
+      margin-bottom: 50px;
+     }
+     
+      
+     .skill:hover{
+      width: 120px;
+      height: 120px;
+      
+     }
+
+     #project{
+      display: flex;
+      flex-wrap: wrap;   
+      justify-content: space-between;  
+      gap: 20px;  
+      width: 100%;
+      margin-top: 200px;
+      }
+     #projects{
+    width: calc(40% - 10px); 
+    background-color: #ddd;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    height: 100px;
+    background: #a2a504;
+    transition: all 0.3s ease;
+     }
+     h3{
+      text-transform: capitalize;
+       margin-left: 45%; 
+       margin-right: 55%;
+       font-size: 50px;
+       color: #d9ff00;
+       margin-bottom: 50px;
+      }
+      #details{
+        font-size: 19px;
+        text-transform: capitalize;
+      }
+      #projects:hover{
+        width: 45%;
+
+      }
+      h4{
+        text-transform: capitalize;
+        text-align: center;
+        font-size: 40px;
+        color:#d9ff00 ;
+        margin-top: 200px;
+      margin-bottom: 50px;
+      }
+      #content{
+        display: flex;
+        justify-content: center;
+       }
+      #face{
+         width: 100px;
+         border-radius: 50%;
+      }
+ input,textarea{
+  width: 40%;
+  height: 40px;
+  display: block;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+ }
+ button{
+  width: 70px;
+  height: 40px;
+  margin-left: 48%;
+  border-radius: 10px;
+
+  }
+
+  button:hover{
+    background:  #756767;
+  }
+  #scroll{
+    display: none;
+    width: 50p;
+    position: fixed;
+    bottom: 10px;
+    right: 4px;
+    background: #c4c114;
+    cursor:      pointer;
+  }
